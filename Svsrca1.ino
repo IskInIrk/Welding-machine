@@ -4,7 +4,7 @@
 #include "GyverButton.h"
 #include <GyverNTC.h>
 
-GyverNTC therm(0, 4100, 6500);
+GyverNTC therm(0, 10000, 5000);
 
 #define CLK 12
 #define DT 11
